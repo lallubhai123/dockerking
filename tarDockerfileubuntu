@@ -1,0 +1,8 @@
+FROM ubuntu
+WORKDIR /root
+RUN echo "bolo" > /root/sai1
+RUN echo "bolo" > /root/sai2
+COPY puli /root
+COPY pilli /root
+ADD 123.tar.gz /root
+
