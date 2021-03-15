@@ -1,0 +1,6 @@
+FROM centos
+WORKDIR /root
+COPY  chitty /root
+RUN echo "hello" > /root/sai1
+RUN echo > /root/sai2
+
